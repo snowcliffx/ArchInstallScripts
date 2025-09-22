@@ -22,4 +22,4 @@ echo "blacklist nouveau" >> /etc/modprobe.d/nvidia.conf
 echo "blacklist iTCO_wdt" >> /etc/modprobe.d/nvidia.conf
 echo "options nvidia_drm modeset=1" >> /etc/modprobe.d/nvidia.conf
 
-pacman -S noto-fonts ttf-jetbrains-mono ttf-mononoki-nerd ttf-dejavu ttf-liberation btop fastfetch brightnessctl duf ncdu xdg-user-dirs cpupower xdg-desktop-portal-hyprland wl-clipboard pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber git nano foot yazi firefox ncspot waybar swaybg bemenu mesa intel-media-driver nvidia-open
+# pacman -S noto-fonts ttf-jetbrains-mono ttf-mononoki-nerd ttf-dejavu ttf-liberation btop fastfetch brightnessctl duf ncdu xdg-user-dirs cpupower xdg-desktop-portal-hyprland wl-clipboard pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber git nano foot yazi firefox ncspot waybar swaybg bemenu mesa intel-media-driver nvidia-open
